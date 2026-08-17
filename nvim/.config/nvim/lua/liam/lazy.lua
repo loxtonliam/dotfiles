@@ -6,7 +6,7 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("liam.plugins", {
+require("lazy").setup({ { import =  "liam.plugins" }, {import = "liam.plugins.lsp"}}, {
   checker = {
     enabled = true,
     notify = false
