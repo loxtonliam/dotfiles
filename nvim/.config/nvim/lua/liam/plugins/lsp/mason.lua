@@ -32,7 +32,7 @@ return {
 		})
 
 		mason_tool_installer.setup({
-			ensure_intalled = {
+			ensure_installed = {
 				"prettier",
 				"stylua",
 				"isort",
