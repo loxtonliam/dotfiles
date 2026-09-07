@@ -1,3 +1,6 @@
+if true then
+	return {}
+end
 return {
 	"mluders/comfy-line-numbers.nvim",
 	config = function()

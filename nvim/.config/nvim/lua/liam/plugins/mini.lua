@@ -46,6 +46,7 @@ return {
 			-- idle time if user input is required.
 			silent = false,
 		})
+		require("mini.splitjoin").setup({})
 
 		local keymap = vim.keymap
 		keymap.set("n", "<leader>ee", function()
