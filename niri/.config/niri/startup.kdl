@@ -1,0 +1,4 @@
+
+spawn-at-startup "noctalia"
+spawn-at-startup "swww-daemon"
+spawn-at-startup "sh" "-c" "sleep 1 && swww img /home/liam/Desktop/Wallpapers/anime/96YOTTEA_on_Pixiv_looking.png"
