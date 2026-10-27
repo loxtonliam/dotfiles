@@ -13,7 +13,7 @@ binds {
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
     Mod+Alt+L {spawn "swaylock";}
-    Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Mod+T hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
     Alt+Space {spawn "wofi" "--show" "drun";}
     XF86MonBrightnessUp {spawn "brightnessctl" "set" "+10%";}
     "XF86MonBrightnessDown" { spawn "brightnessctl" "set" "10%-"; }
@@ -236,7 +236,7 @@ binds {
     // Mod+Space       { switch-layout "next"; }
     // Mod+Shift+Space { switch-layout "prev"; }
 
-    Print { screenshot; }
+   Alt+Shift+S { screenshot; }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
 

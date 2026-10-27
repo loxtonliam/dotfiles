@@ -34,16 +34,17 @@ input {
     mouse {
         // off
         // natural-scroll
-        // accel-speed 0.2
-        // accel-profile "flat"
+        accel-speed 0.5
+        accel-profile "flat"
+        scroll-factor 2
         // scroll-method "no-scroll"
     }
 
     trackpoint {
         // off
         // natural-scroll
-        // accel-speed 0.2
-        // accel-profile "flat"
+        accel-speed 0
+        accel-profile "flat"
         // scroll-method "on-button-down"
         // scroll-button 273
         // middle-emulation

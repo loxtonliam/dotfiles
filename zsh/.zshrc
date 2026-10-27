@@ -108,9 +108,9 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 # for pyenv (getting python 3.10.11)
-# export PYENV_ROOT="$HOME/.pyenv"
-# [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 # export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(fzf --zsh)"
@@ -155,3 +155,8 @@ eval $(thefuck --alias)
 #zoxide (better cd)
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+export PATH=$PATH:/home/liam/.spicetify
+export PATH=$PATH:/home/liam/.local/bin/spotifycli
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

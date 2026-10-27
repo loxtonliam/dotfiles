@@ -1,0 +1,5 @@
+font-family = MesloLGS Nerd Font Mono
+font-size = 14
+background-opacity = 0.9
+theme = catppuccin-macchiato.conf
+mouse-hide-while-typing = true

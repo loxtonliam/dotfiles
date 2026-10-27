@@ -6,6 +6,9 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search higlights" })
 
+keymap.set("n", "<leader>w", ":write<CR>")
+keymap.set("n", "<leader>q", ":quit<CR>")
+
 --inc/dec numbers
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" })
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" })

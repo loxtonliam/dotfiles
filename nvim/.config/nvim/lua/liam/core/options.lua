@@ -4,6 +4,7 @@ local opt = vim.opt
 
 opt.relativenumber = true
 opt.number = true
+opt.swapfile = false
 
 -- tabs and indentation
 opt.tabstop = 2
@@ -19,10 +20,10 @@ opt.smartcase = true -- mixed case in search, assumes case sensitive
 
 opt.cursorline = true
 
--- turn on termguicolours for tokyonight 
+-- turn on termguicolours for tokyonight
 
 opt.termguicolors = true
-opt.background = 'dark'
+opt.background = "dark"
 opt.signcolumn = "yes"
 
 --backspace
@@ -34,5 +35,3 @@ opt.clipboard:append("unnamedplus") -- uses system clipboard
 --split windows
 opt.splitright = true
 opt.splitbelow = true
-
-
